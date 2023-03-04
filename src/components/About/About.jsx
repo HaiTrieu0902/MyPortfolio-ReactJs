@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import imagePersonal from '~/assets/images/trieu169.png';
+import imagePersonal from './../../assets/images/trieu169.png';
 import { BiAward } from 'react-icons/bi';
 import { FaUsers, FaProjectDiagram } from 'react-icons/fa';
 const About = () => {

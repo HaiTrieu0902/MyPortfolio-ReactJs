@@ -1,10 +1,10 @@
 import React from 'react';
 import './Portfolio.css';
-import portfolioItem1 from '~/assets/images/portfolio1.jpg';
-import portfolioItem2 from '~/assets/images/portfolio2.jpg';
-import portfolioItem3 from '~/assets/images/portfolio3.jpg';
-import portfolioItem4 from '~/assets/images/portfolio4.jpg';
-import portfolioItem5 from '~/assets/images/portfolio5.png';
+import portfolioItem1 from './../../assets/images/portfolio1.jpg';
+import portfolioItem2 from './../../assets/images/portfolio2.jpg';
+import portfolioItem3 from './../../assets/images/portfolio3.jpg';
+import portfolioItem4 from './../../assets/images/portfolio4.jpg';
+import portfolioItem5 from './../../assets/images/portfolio5.png';
 
 import { useRef, useState } from 'react';
 // Import Swiper React components
