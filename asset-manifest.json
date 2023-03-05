@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.70d51764.css",
-    "main.js": "./static/js/main.db993e64.js",
+    "main.css": "./static/css/main.9cd74814.css",
+    "main.js": "./static/js/main.acec1e46.js",
     "static/media/trieu169.png": "./static/media/trieu169.7fa9cbf8541658fd04fa.png",
     "static/media/personal.png": "./static/media/personal.f763f4059ba5a996109a.png",
     "static/media/cv.pdf": "./static/media/cv.1676dcdc83730930d888.pdf",
@@ -11,11 +11,11 @@
     "static/media/portfolio3.jpg": "./static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "./static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "./index.html",
-    "main.70d51764.css.map": "./static/css/main.70d51764.css.map",
-    "main.db993e64.js.map": "./static/js/main.db993e64.js.map"
+    "main.9cd74814.css.map": "./static/css/main.9cd74814.css.map",
+    "main.acec1e46.js.map": "./static/js/main.acec1e46.js.map"
   },
   "entrypoints": [
-    "static/css/main.70d51764.css",
-    "static/js/main.db993e64.js"
+    "static/css/main.9cd74814.css",
+    "static/js/main.acec1e46.js"
   ]
 }
