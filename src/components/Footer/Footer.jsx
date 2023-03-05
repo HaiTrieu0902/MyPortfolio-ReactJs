@@ -1,15 +1,16 @@
 import React from 'react';
-import './Footer.css';
 import { BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs';
-
+import classNames from 'classnames/bind';
+import styles from './Footer.module.scss';
+const cx = classNames.bind(styles);
 const Footer = () => {
     return (
         <footer>
-            <a href="#" className="footer__logo">
+            <a href="#" className={cx('footer__logo')}>
                 HAITRIEU
             </a>
 
-            <ul className="link">
+            <ul className={cx('link')}>
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -33,7 +34,7 @@ const Footer = () => {
                 </li>
             </ul>
 
-            <div className="footer__social">
+            <div className={cx('footer__social')}>
                 <a href="https://www.facebook.com/trieuql123">
                     <BsFacebook />
                 </a>
@@ -45,7 +46,7 @@ const Footer = () => {
                 </a>
             </div>
 
-            <div className="footer__copyright">
+            <div className={cx('footer__copyright')}>
                 <small> &copy; HAI TRIEU completed</small>
             </div>
         </footer>

@@ -1,7 +1,5 @@
 .portfolio__container {
     display: grid;
-
-    padding-bottom: 3.5rem;
 }
 
 .portfolio__item {
@@ -31,6 +29,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    margin-left: 2rem;
 }
 
 /* ============= MEDIA QURIES (MEDIUM DEVIES) */
@@ -39,12 +38,15 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    #portfolio {
+        margin-top: -30rem;
+    }
 }
 
 /* ============= MEDIA QURIES (SMALL DEVIES) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
     #portfolio {
-        margin-top: 80%;
+        margin-top: 35rem;
     }
     .portfolio__container {
         grid-template-columns: 1fr;
@@ -63,5 +65,11 @@
         cursor: pointer;
         border: 1px solid var(--color-primary);
         font-size: 1rem !important;
+    }
+    .portfolio__item-cta {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
     }
 }

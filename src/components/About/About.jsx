@@ -3,37 +3,40 @@ import './About.css';
 import imagePersonal from './../../assets/images/trieu169.png';
 import { BiAward } from 'react-icons/bi';
 import { FaUsers, FaProjectDiagram } from 'react-icons/fa';
+import classNames from 'classnames/bind';
+import styles from './About.module.scss';
+const cx = classNames.bind(styles);
 const About = () => {
     return (
         <section id="about">
             <h5>Get to know</h5>
             <h2>About me</h2>
 
-            <div className="container about__container">
-                <div className="about__me">
-                    <div className="about__me-image">
+            <div className={cx('container', 'about__container')}>
+                <div className={cx('about__me')}>
+                    <div className={cx('about__me-image')}>
                         <img src={imagePersonal} alt="HAI TRIEU" />
                     </div>
                 </div>
-                <div className="about_content">
-                    <div className="about__cards">
-                        <article className="about__card">
-                            <BiAward className="about__icon"></BiAward>
+                <div className={cx('about_content')}>
+                    <div className={cx('about__cards')}>
+                        <article className={cx('about__card')}>
+                            <BiAward className={cx('about__icon')}></BiAward>
                             <h5>Experience</h5>
                             <small> Less 1 year working </small>
                         </article>
-                        <article className="about__card">
-                            <FaUsers className="about__icon"></FaUsers>
+                        <article className={cx('about__card')}>
+                            <FaUsers className={cx('about__icon')}></FaUsers>
                             <h5>Clients</h5>
                             <small> 3 People</small>
                         </article>
-                        <article className="about__card">
-                            <FaProjectDiagram className="about__icon"></FaProjectDiagram>
+                        <article className={cx('about__card')}>
+                            <FaProjectDiagram className={cx('about__icon')}></FaProjectDiagram>
                             <h5>Project</h5>
                             <small> 5 Completed</small>
                         </article>
                     </div>
-                    <p className="about_content">
+                    <p className={cx('about_content')}>
                         Hello, my name is Hai Trieu and I have 1 year of professional experience in the Information
                         Technology (IT) industry. I am a Front-End developer and I have been involved in various IT
                         projects during my tenure. Professional Experience During my one year of professional experience
@@ -52,7 +55,7 @@ const About = () => {
                         skills, both written and verbal, that enable me to collaborate effectively with stakeholders and
                         clients.
                     </p>
-                    <a href="#contact" className="btn btn-primary">
+                    <a href="#contact" className={cx('btn', 'btn-primary')}>
                         Let's Contact
                     </a>
                 </div>

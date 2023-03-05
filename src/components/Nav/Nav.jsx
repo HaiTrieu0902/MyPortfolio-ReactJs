@@ -3,9 +3,7 @@ import './Nav.css';
 import { BiBookmarks, BiHomeSmile, BiUserPin } from 'react-icons/bi';
 import { FaServicestack } from 'react-icons/fa';
 import { MdOutlinePermContactCalendar } from 'react-icons/md';
-
 import { useState } from 'react';
-
 const Nav = () => {
     const [activeNav, setActiveNav] = useState('#');
 
