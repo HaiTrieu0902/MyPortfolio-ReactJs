@@ -37,8 +37,8 @@ const data = [
         id: 3,
         image: portfolioItem3,
         title: 'ECommerce Teamplate',
-        github: 'https://github.com/HaiTrieu0902/eCommerce_Teamplate',
-        demo: 'https://haitrieu0902.github.io/eCommerce_Teamplate/',
+        github: 'https://github.com/HaiTrieu0902/eCommerce_React',
+        demo: 'https://haitrieu0902.github.io/eCommerce_React/',
     },
     {
         id: 4,
