@@ -1,12 +1,11 @@
 import React from 'react';
 import './Portfolio.css';
-import portfolioItem1 from './../../assets/images/portfolio1.jpg';
-import portfolioItem2 from './../../assets/images/portfolio2.jpg';
-import portfolioItem3 from './../../assets/images/portfolio3.jpg';
-import portfolioItem4 from './../../assets/images/portfolio4.jpg';
-import portfolioItem5 from './../../assets/images/portfolio5.png';
+import portfolioItem1 from './../../assets/images/Admin Dashboard.png';
+import portfolioItem2 from './../../assets/images/Home.png';
+import portfolioItem3 from './../../assets/images/My Portfolio.png';
+import portfolioItem4 from './../../assets/images/TeamStay.png';
+import portfolioItem5 from './../../assets/images/Play Music.png';
 
-import { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -22,37 +21,37 @@ const data = [
     {
         id: 1,
         image: portfolioItem1,
+        title: 'Dashboard Admin',
+        github: 'https://github.com/HaiTrieu0902/dashbroad-admin',
+        demo: 'https://haitrieu0902-dashbroad-admin.netlify.app/',
+    },
+    {
+        id: 2,
+        image: portfolioItem2,
+        title: 'Ecommerce Template',
+        github: 'https://github.com/HaiTrieu0902/eCommerce_React',
+        demo: 'https://haitrieu0902-ecommerce-template.netlify.app/',
+    },
+    {
+        id: 3,
+        image: portfolioItem3,
         title: 'My Portfolio',
         github: 'https://github.com/HaiTrieu0902/MyPortfolio-ReactJs',
         demo: 'https://haitrieu0902.github.io/MyPortfolio-ReactJs/',
     },
     {
-        id: 2,
-        image: portfolioItem2,
-        title: 'Team Stay',
-        github: 'https://github.com/HaiTrieu0902/TeamStay_develop',
-        demo: 'https://haitrieu0902.github.io/TeamStay_develop/',
-    },
-    {
-        id: 3,
-        image: portfolioItem3,
-        title: 'ECommerce Teamplate',
-        github: 'https://github.com/HaiTrieu0902/eCommerce_React',
-        demo: 'https://haitrieu0902.github.io/eCommerce_React/',
-    },
-    {
         id: 4,
         image: portfolioItem4,
-        title: 'Music Player',
-        github: 'https://github.com/HaiTrieu0902/MusicPlay',
-        demo: 'https://haitrieu0902.github.io/MusicPlay/',
+        title: 'Team Stay',
+        github: 'https://github.com/HaiTrieu0902/TeamStay_develop',
+        demo: 'https://haitrieu0902-teamstay.netlify.app/',
     },
     {
         id: 5,
         image: portfolioItem5,
-        title: 'Shoppe Clone',
-        github: 'https://github.com/HaiTrieu0902/SourceShoppe',
-        demo: 'https://haitrieu0902.github.io/SourceShoppe/',
+        title: 'Music Play',
+        github: 'https://github.com/HaiTrieu0902/MusicPlay',
+        demo: 'https://haitrieu0902-musicplayer.netlify.app/',
     },
 ];
 
@@ -79,10 +78,15 @@ const Portfolio = () => {
                             </div>
                             <h3>{item.title}</h3>
                             <div className="portfolio__item-cta">
-                                <a href={item.github} className="btn btn_small">
+                                <a rel="noreferrer" target="_blank" href={item.github} className="btn btn_small">
                                     Github
                                 </a>
-                                <a href={item.demo} target="_blank" className="btn btn_small btn-primary">
+                                <a
+                                    rel="noreferrer"
+                                    href={item.demo}
+                                    target="_blank"
+                                    className="btn btn_small btn-primary"
+                                >
                                     LiveDemo
                                 </a>
                             </div>

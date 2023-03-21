@@ -31,6 +31,13 @@ const Experience = () => {
                         <article className={cx('experience__detalis')}>
                             <BsFillPatchCheckFill className={cx('experience__detalis-icon')} />
                             <div className={cx('experience__detalis-item')}>
+                                <h4>Tailwind css</h4>
+                                <small className={cx('text-light')}>Intermedia</small>
+                            </div>
+                        </article>
+                        <article className={cx('experience__detalis')}>
+                            <BsFillPatchCheckFill className={cx('experience__detalis-icon')} />
+                            <div className={cx('experience__detalis-item')}>
                                 <h4>Bootstrap</h4>
                                 <small className={cx('text-light')}>Experience</small>
                             </div>
