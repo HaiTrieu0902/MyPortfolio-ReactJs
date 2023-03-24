@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from './../../assets/images/cv.pdf';
+import CV from './../../assets/images/CV_Bui-Hai-Trieu-Intern-Frontent_2002.pdf';
 import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 const cx = classNames.bind(styles);
